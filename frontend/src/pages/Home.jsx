@@ -149,7 +149,7 @@ const Home = () => {
               <Link
                 key={index}
                 to={category.path}
-                className={`${classes.cardBg} rounded-xl shadow-soft hover:shadow-strong transition-all duration-300 p-6 group border`}
+                className={`${classes.cardBg} rounded-xl shadow-soft hover:shadow-lg hover:scale-105 transition-transform duration-300 p-6 group border cursor-pointer`}
               >
                 <div className="flex items-start space-x-4">
                   <div className={`${category.color} p-3 rounded-lg group-hover:scale-110 transition-transform`}>
